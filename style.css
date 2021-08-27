@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    min-width: 70vh;
+    margin: 0 auto;
+    width: 75%
+}
+header{
+    margin: 15px auto;
+}
+header ul li:nth-child(7){
+    margin-left: 10px;
+}
+header div, header section{
+    display: inline-block;
+}
+#logoText h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1cm;
+    font-weight: bolder;
+}
+#logoText p{
+    font-weight: 5cm;
+}
+#iconsContainer{
+  right: 0px;
+  padding: 10px 0px;
+  float: right;
+}
+header ul li{
+    display: inline-block;
+}
+
+main{
+    margin: 0 auto;
+    clear:both;
+}
+#logoText2{
+    position: relative;
+    margin: 35px auto;;
+}
+#logoText2 div{
+    float: left;
+}
+#logoText2 div h1{
+    font-size: 1cm;
+    font-weight: bolder;
+}
+#logoText2 div p{
+    font-size: 10px;
+    font-weight: 2px;
+    color: rgba(128, 128, 128, 0.753);
+}
+#print{
+    position: absolute;
+    /* float: right; */
+    top: 40px;
+    right: 0;
+}
+#print img, #print p{
+    display: inline-block;
+}
+
+#hero{
+    clear:both;
+    width: 100%;
+    padding-top: 25px;
+}
+#hero img{
+    width: 100%;
+}
+
+#paras p{
+    margin: 25px 0;
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 19px;
+    font-weight: 50px;
+    color: rgb(133, 133, 133);
+}
+#paper{
+    /* position: relative; */
+    width: 100%;
+    margin: 60px auto;
+    min-height: 321px;
+    height: 321px;
+    background-image: url("Assets/list-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* #paper img{
+    width: 100%;
+} */
+#p1,#p2{
+    width: 40%;
+    margin: 25px 4%;
+    display: inline-block;
+    text-align: center;
+}
+#p1 ul, #p2 ul{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#p1 ul li, #p2 ul li{
+    margin: 15px;
+    font-size: larger;
+    color: rgba(117, 113, 88, 0.781);
+    font-weight: 600;
+    text-align: justify;
+}
+footer{
+    width: 100%;
+    margin: 25px auto;
+}
+footer:first-child{
+    position: relative;
+    width: 100%;
+}
+footer:first-child div{
+    display: inline;
+}
+#profilePic{
+    float: left;
+    /* display: inline-block; */
+    width: 8%;
+}
+#info{
+    /* display: inline; */
+    width: 52%;
+}
+#info h1{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+    margin: 5px;
+}
+#info p{
+    color: rgb(121, 121, 121); 
+}
+#button{
+    float: right;
+    position: relative;
+    top: -50px;
+    left: 0;
+}
+#button button{
+    background-color: #df1010; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#brk{
+    clear:both;
+    text-align: center;
+}
+
+#brk hr{
+    display: inline-block;
+    width: 48%;
+}
+
+#copyR{
+    text-align: center;
+    color: rgb(121, 121, 121); 
+    margin: 25px auto;
+}
+
+.customBorder{
+    width: 100%;
+    margin: 25px auto;
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.623);
+}
